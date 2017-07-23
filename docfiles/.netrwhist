@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/Nico/.ssh'
+let g:netrw_dirhist_2='/Users/Nico/Development/Docker/docker-pure-ftpd/.git'
+let g:netrw_dirhist_3='/Users/Nico/Docker/hvz-php7-typo3v7/Data/.git'
+let g:netrw_dirhist_4='/Users/Nico/Development/Shiroi-Reloaded'
+let g:netrw_dirhist_5='/Users/Nico/Development/Shiroi-Reloaded/App'
+let g:netrw_dirhist_6='/Users/Nico/Development/Shiroi-Reloaded/App/Views'
