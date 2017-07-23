@@ -10,7 +10,7 @@ if [ -f ~/.vimrc ]; then
 fi
 
 echo "Creating symlink for .vimrc"
-ln -s $(PWD)/.vimrc ~/.vimrc
+ln -s $(PWD)/vimrc ~/.vimrc
 
 if [ -d ~/.vim ]; then
 	echo "Renaming current .vim folder to .vim-$(DATE)";
@@ -18,7 +18,7 @@ if [ -d ~/.vim ]; then
 fi
 
 echo "Creating symlink for .vim folder"
-ln -s $(PWD)/.vim ~/.vim
+ln -s $(PWD)/docfiles ~/.vim
 
 if [ -f ~/.bash_profile ]; then
 	echo "Renaming current .bash_profile to .bash_profile-$(DATE)"
@@ -26,4 +26,4 @@ if [ -f ~/.bash_profile ]; then
 fi
 
 echo "Creating symlink for .bash_profile"
-ln -s $(PWD)/.bash_profile ~/.bash_profile
+ln -s $(PWD)/bash_profile ~/.bash_profile
